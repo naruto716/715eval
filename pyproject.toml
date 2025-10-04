@@ -1,0 +1,15 @@
+[project]
+name = "715eval"
+version = "0.1.0"
+description = "Emotion classification evaluation"
+requires-python = ">=3.9"
+dependencies = [
+    "transformers>=4.30.0",
+    "torch>=2.0.0",
+    "pandas>=2.0.0",
+    "scikit-learn>=1.3.0",
+    "tqdm>=4.65.0",
+    "openai>=1.0.0",
+    "python-dotenv>=1.0.0",
+]
+
